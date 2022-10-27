@@ -1,0 +1,447 @@
+/* ここから下に記載していく */
+@charset "UTF-8";
+
+
+/* -----------------
+全体
+-------------------- */
+
+body{
+color: #050404;
+font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+width: 1200px;
+margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+    
+
+/* -------------------
+ヘッダー
+----------------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-nav {
+    display: flex;
+    font-size:21px;
+}
+
+.main-nav li {
+    margin: 30px;
+    padding: 50px 0;
+    color: black;
+}
+
+.header__text {
+    color: black;
+    text-decoration: none;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper { 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* ----------------------
+トップページ
+--------------------------*/
+
+.tomatologo {
+width: 1200px;
+}
+
+
+
+.box{
+    position: relative;
+    width:1200px;
+  }
+
+  .center1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .center2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+  }
+
+
+
+
+/* ---------------
+about
+------------------- */ 
+.aboutimg {
+   display: flex;
+   justify-content: center;
+}
+
+.aboutimg1 {
+    width: 240px;
+}
+
+.aboutimg2 {
+    width: 350px;
+}
+
+.aboutimg3 {
+    width: 250px;
+}
+
+/* .about-wrapper {
+    width: 1200px;
+    margin: auto;
+} */
+
+.about__title {
+    margin: 60px 0 30px 0;
+    font-size: 24px;
+    color: #ffd61a;
+}
+
+.about__name {
+    margin: 30px 0 60px 0;
+}
+
+.about__text {
+    margin: 40px 0 40px 0;
+    font-size: 16px;
+}
+
+/* .aboutimg {
+    width: auto;
+    height: auto;
+    margin: 80px 0 0 0;
+} */
+
+
+/* ---------------
+course
+------------------- */
+
+.course img {
+   width: 600px;
+}
+
+
+.course__title {
+ padding: 60px 0 30px 0;
+ font-size: 24px;
+ font-weight: bold;
+}
+
+.course__text {
+    margin:0 0 60px 0;
+    font-size: 16px;
+    line-height: 1.7;
+    
+}
+
+.course1  {
+    margin: 0 100px 0 0;
+    text-align: left;
+}
+
+.course2  {
+    margin: 0 0 0 100px;
+    text-align: left;
+}
+
+.course3  {
+    margin: 0 100px 0 0;
+    text-align: left;
+}
+
+
+
+.coursetext {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 120px 0 40px;
+}
+
+.coursleft {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courseright {
+    margin-left: 50px;
+    width: 480px;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.coursesub {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7e1e1;
+}
+
+
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 120px 0 40px;
+}
+
+/* --------------------------------------------
+news
+------------------------------------------------*/
+
+.news__title {
+    margin: 60px 0 30px 0;
+    font-size: 24px;
+    color: #ffd61a;
+}
+
+
+.news__text {
+    margin: 0  0 60px 0;
+}
+
+
+.news__item p {
+    font-size: 14px;
+    margin: 30px 0 24px 0;
+    width: 300px;
+    line-height: 2;
+}
+
+
+.news__list {
+    display:flex;
+    justify-content: space-around;
+    margin: 0 0 60px 0;
+    
+}
+
+.news__item:hover {
+    background-color: rgb(126, 228, 196);
+}
+
+
+.button {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    background-color: #f5ca0a;
+    color: white;
+    font-size: 18px;
+    border: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background: #737878;
+}
+
+
+/* --------------------------------------------
+access
+------------------------------------------------*/
+
+#access {
+    background-color: #e5e0e079;
+    padding: 0 0 60px 0;
+
+}
+
+.access__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin:60px 0 30px;
+    padding: 60px 0 0 0;
+}
+
+.access__name {
+    font-size: 18px;
+    margin: 0 0 60px;
+}
+
+iframe {
+    width: 100%;
+    padding: 0 0 60px;
+}
+
+table {
+    width: 600px;
+    margin: auto;
+}
+
+table td {
+    padding: 30px 0 0 80px;
+}
+
+.contactbutton {
+    margin: 30px 0 140px 0;
+}
+
+/* --------------------------------------------
+contact
+------------------------------------------------*/
+
+
+
+.contact__title {
+    margin: 60px 0 30px 0;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.contact__name {
+    font-size: 16px;
+
+}
+
+.contact__text {
+    font-size: 16px;
+    margin: 0px 0 30px 0;
+}
+
+.form-wrapper {
+    width: 560px;
+    margin: auto;
+}
+
+.form-inner {
+    margin: 70px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.form-title {
+    width: 172px;
+    font-size:16px;
+}
+
+.form-item {
+    width: 388px;
+    font-size: 16px;
+
+}
+
+.cct {
+    margin: 30px 0 60px 0;
+}
+
+
+
+
+/* --------------------------------
+footer
+----------------------------------- */
+
+.footer {
+    background-color: #707070;
+    padding: 30px 0;
+    margin: 140px;
+    color: white;
+}
+
+
+
+/* ----------------------------------
+new__contact
+---------------------------------- */
+
+
+/* .contact {
+    background-color: #f8f8f8e1;
+} */
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"] ,
+input[type="email"],
+textarea {
+    background-color: rgba(255,255,255,5);
+    border: 1px rgb(242, 237, 134) solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+input[type="text"] ,
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+
+input[type="checkbox"] {
+    width: 80%;
+    max-width: 50px;
+    padding: 200px;
+    font-size: 1rem;
+}
+
+
+
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.contact__new {
+    text-align: center;
+}
+
+.test {
+    display: inline-block;
+    text-align: left;     
+}
+
